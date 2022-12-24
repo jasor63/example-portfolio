@@ -1,0 +1,648 @@
+body {
+    font-family: raleway, arial;
+    background-color: rgb(241, 239, 239);
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  button {
+    font-family: raleway, arial;
+  }
+  .heading {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .right-side {
+    max-width: fit-content;
+    margin-left: 310px;
+    position: grid;
+    width: 100%;
+  }
+  .filter-section {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .all-section {
+    font-size: 16px;
+    padding: 10px 13px 12px 13px;
+    border: 0 solid;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+  }
+  .all-section:hover {
+    background-color: rgb(241, 239, 239);
+    color: black;
+  }
+  .design-section,
+  .photos-section,
+  .art-section {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: 0 solid;
+    margin-left: 0.1px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+  .design-section:hover {
+    background-color: rgb(212, 211, 211);
+  }
+  .photos-section:hover {
+    background-color: rgb(212, 211, 211);
+  }
+  .art-section:hover {
+    background-color: rgb(212, 211, 211);
+  }
+  .sections {
+    margin-top: 30px;
+  }
+  .diamond-icon,
+  .gallery-icon,
+  .location-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+
+  .image {
+    width: 330px;
+    height: 210px;
+  }
+  .image:hover {
+    opacity: 0.7;
+  }
+  .title {
+    margin-left: 15px;
+    margin-top: 17px;
+    font-weight: bold;
+  }
+  .content {
+    margin-top: 18px;
+    margin-left: 17px;
+    width: 310px;
+    line-height: 23px;
+    padding-bottom: 15px;
+  }
+  .grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+  .image1-div,
+  .image2-div,
+  .image3-div,
+  .image4-div,
+  .image5-div,
+  .image6-div {
+    background-color: white;
+    max-width: fit-content;
+  }
+
+  .button-1,
+  .button-2,
+  .button-3,
+  .button-4,
+  .arrow-1,
+  .arrow-2 {
+    float: left;
+    padding: 10px 15px 10px 15px;
+    border: 0 solid;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .button-1 {
+    background-color: black;
+    color: white;
+  }
+  .button-1:hover {
+    background-color: rgb(212, 211, 211);
+    color: black;
+  }
+  .button-2:hover {
+    background-color: black;
+    color: white;
+  }
+  .button-3:hover {
+    background-color: black;
+    color: white;
+  }
+  .button-4:hover {
+    background-color: black;
+    color: white;
+  }
+  .arrow-1:hover {
+    background-color: black;
+    color: white;
+  }
+  .arrow-2:hover {
+    background-color: black;
+    color: white;
+  }
+  .pages {
+    margin-left: 380px;
+  }
+
+  .left-margin-div {
+    max-width: fit-content;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+  }
+  .avatar-image {
+    width: 123px;
+    height: 123px;
+    object-fit: cover;
+    margin-top: 23px;
+    margin-left: 15px;
+    border-radius: 4px;
+    margin-right: 160px;
+  }
+  .name {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .author {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: rgb(145, 145, 145);
+  }
+  .division1 {
+    margin-top: 20px;
+  }
+  .foursquare,
+  .user,
+  .email {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+    float: left;
+  }
+  .email {
+    object-fit: contain;
+  }
+  .left-portfolio,
+  .left-about,
+  .left-contact {
+    vertical-align: baseline;
+    padding-left: 15px;
+    font-size: 15px;
+    border: 0 solid;
+    padding-right: 166px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(133, 175, 133);
+  }
+  .left-about {
+    padding-right: 197px;
+  }
+  .left-contact {
+    padding-right: 179px;
+  }
+  .left-portfolio:hover {
+    color: black;
+    background-color: rgb(212, 211, 211);
+  }
+  .left-about:hover {
+    background-color: rgb(212, 211, 211);
+  }
+  .left-contact:hover {
+    background-color: rgb(212, 211, 211);
+  }
+  .left-button-text {
+    vertical-align: middle;
+  }
+  .left-about,
+  .left-contact {
+    color: black;
+  }
+  .facebook {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  .facebook-button,
+  .instagram-button,
+  .snapchat-button,
+  .pinterest-button,
+  .twitter-button,
+  .linkedin-button {
+    border: 0 solid;
+    background-color: white;
+    padding: 0px;
+  }
+  .facebook:hover {
+    opacity: 0.6;
+  }
+  .media-links {
+    margin-top: 13px;
+    margin-left: 15px;
+  }
+
+  .bigphoto-div {
+    margin-top: 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 15px;
+  }
+  .clearedme {
+    width: 500px;
+  }
+  .blurredme {
+    width: 500px;
+  }
+
+  .about-div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .aboutme {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .aboutmyself {
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 20px;
+  }
+
+  .technical-heading {
+    font-size: 20px;
+  }
+  .photography-div,
+  .webdesign-div,
+  .photoshop-div {
+    background-color: rgb(153, 152, 152);
+    width: 100%;
+    height: 40px;
+  }
+  .photography-skill {
+    background-color: rgb(95, 95, 95);
+    width: 95%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+  }
+  .webdesign-skill {
+    background-color: rgb(95, 95, 95);
+    width: 85%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+  }
+  .photoshop-skill {
+    background-color: rgb(95, 95, 95);
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+  }
+  .photography,
+  .webdesign,
+  .photoshop {
+    font-size: 14px;
+    margin-top: 22px;
+  }
+  .resume-button {
+    margin-top: 30px;
+    padding: 15px 25px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(95, 95, 95);
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  .resume-button:hover {
+    color: black;
+    background-color: rgb(212, 211, 211);
+  }
+  .download-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  .about-charge {
+    font-size: 20px;
+  }
+  .charging-whole-div {
+    width: 320px;
+    height: 584px;
+    margin-bottom: 60px;
+  }
+  .basic-mode {
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    color: white;
+  }
+  .sess1,
+  .sess2,
+  .sess3,
+  .sess4,
+  .sess5 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: rgb(207, 207, 207);
+    border-width: 0 1px 1px;
+    border-style: solid;
+    background-color: white;
+    color: rgb(95, 95, 95);
+  }
+  .dollar {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .sess5 {
+    padding-bottom: 0;
+  }
+  .signup-div {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: rgb(207, 207, 207);
+    border-width: 0 1px 1px;
+    border-style: solid;
+  }
+  .signup-button {
+    font-size: 17px;
+    padding: 15px 25px;
+    border-style: none;
+    background-color: rgba(14, 173, 152, 0.767);
+    cursor: pointer;
+    color: white;
+  }
+  .signup-button:hover {
+    background-color: black;
+  }
+  .charging-admin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 10px;
+  }
+
+  .contact-div {
+    background-color: rgb(152, 152, 152);
+    margin-left: 292px;
+    height: 640px;
+  }
+  .contactme {
+    padding-left: 15px;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .email-contact {
+    margin-left: 15px;
+    width: 330px;
+    height: 120px;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+  }
+  .location-contact {
+    width: 330px;
+    height: 120px;
+    background-color: rgb(50, 141, 126);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-left: -1px;
+  }
+  .phone-contact {
+    width: 330px;
+    height: 120px;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-left: -17px;
+  }
+  .emailin-contact,
+  .locationin-contact,
+  .phonein-contact {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .precised-contact-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .line-contact {
+    width: 990px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .dm-div {
+    margin-left: 15px;
+  }
+
+  .name-dm,
+  .email-dm,
+  .message-dm {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .name-dm {
+    margin-top: 25px;
+  }
+  .name-input,
+  .email-input,
+  .message-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 732px;
+    padding-left: 10px;
+    border: solid white;
+    border-radius: 0;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .send-message-button {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border-style: none;
+  }
+  .send-message-button:hover {
+    background-color: rgb(207, 207, 207);
+    color: white;
+  }
+  .paper-rocket {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+
+  .footer-admin-div {
+    margin-left: 292px;
+    padding-left: 25px;
+    background-color: rgb(103, 101, 101);
+    width: 1013px;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-div {
+    padding-top: 30px;
+    width: 300px;
+    color: white;
+  }
+  .workshop {
+    width: 60px;
+    height: 60px;
+    float: left;
+  }
+  .ropecar {
+    width: 60px;
+    height: 60px;
+    float: left;
+  }
+  .blogs-div {
+    width: 300px;
+    padding-top: 30px;
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  .tags-div {
+    width: 300px;
+    padding-top: 30px;
+  }
+  .travel,
+  .newyork,
+  .london,
+  .ikea,
+  .norway,
+  .diy,
+  .ideas,
+  .baby,
+  .family,
+  .news,
+  .clothing,
+  .shopping,
+  .sports,
+  .games {
+    background-color: rgb(180, 179, 179);
+    display: inline;
+    line-height: 3;
+    padding: 3px 10px;
+    font-size: 13px;
+  }
+  .travel {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+  }
+  .heading1-discription {
+    line-height: 1.5;
+  }
+  .owner-link {
+    margin-top: 20px;
+  }
+  .heading1,
+  .heading2,
+  .heading3 {
+    color: white;
+    font-weight: lighter;
+  }
+  .lorem,
+  .ipsum {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 0;
+    padding-top: 20px;
+  }
+  .ipsum {
+    margin-top: 0;
+  }
+  .lorem-desc,
+  .ipsum-desc {
+    color: white;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+  .image-desc1,
+  .image-desc2 {
+    padding-left: 15px;
+    height: 90px;
+  }
+  .image-desc1:hover {
+    background-color: rgb(184, 181, 181);
+  }
+  .image-desc2:hover {
+    background-color: rgb(184, 181, 181);
+  }
+  .workshop,
+  .ropecar {
+    margin-right: 20px;
+    padding-top: 15px;
+  }
+
+  .last-thing {
+    background-color: black;
+    height: 80px;
+    margin-left: 292px;
+  }
+  .last-owner-link {
+    color: white;
+    line-height: 80px;
+    justify-content: center;
+    display: flex;
+  }
+  a {
+    height: 0;
+  }
+  a:hover {
+    color: goldenrod;
+  }
+  a:visited {
+    color: white;
+  }
+  .jasor{
+    color : greenyellow;
+    cursor: pointer;
+  }
+  .jasor:hover{
+    color: orange;
+  }
